@@ -19,7 +19,8 @@ repositories {
 
 jar {
     manifest {
-        attributes 'Main-Class': 'omid.Main'
+//        attributes 'Main-Class': 'omid.Main'
+        attributes 'Main-Class': 'spam.SpamDetector'
     }
     archiveName 'abc.jar'
 }
